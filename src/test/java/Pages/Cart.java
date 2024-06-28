@@ -16,6 +16,7 @@ public class Cart {
         SearchContext shadow0 = driver.findElement(cssSelectorForHost1).getShadowRoot();
         SearchContext shadow1 = shadow0.findElement(cssSelectorForHost2).getShadowRoot();
         SearchContext shadow2 = shadow1.findElement(cssSelectorForHost3).getShadowRoot();
+
         /*Select select = new Select(shadow2.findElement(quantity));
         WebElement selectedOption = select.getFirstSelectedOption();
         String selectedValue = selectedOption.getAttribute("value");*/

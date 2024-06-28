@@ -27,5 +27,10 @@ public class Base_page extends Driver {
         Thread.sleep(700);
         element2.click();
     }
+
+    public void  shadow_element(By Shadow_locator[], By locator){
+
+    }
+
 }
 
